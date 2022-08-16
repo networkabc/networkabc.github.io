@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tools on 测试文档博客系统</title>
+    <link>https://test.dev.org/tools/</link>
+    <description>Recent content in Tools on 测试文档博客系统</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language><atom:link href="https://test.dev.org/tools/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://test.dev.org/tools/1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://test.dev.org/tools/1/</guid>
+      <description>办公室信息安全注意事项 一、计算机使用方面： 1、 计算机关闭默认共享，只开启需要密码才能访问的文件共享。 2、 计算机开启设置屏幕保护程序，设置时间小于10分钟，恢复时使用输入密码。 3、 计算机上禁止运行任何未经安全分析、来历不明的软件。 4、 计算机必须妥善保管，并在丢失的情况下，立即上报以</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://test.dev.org/tools/office/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://test.dev.org/tools/office/</guid>
+      <description>办公室信息安全注意事项 一、计算机使用方面： 1、 计算机关闭默认共享，只开启需要密码才能访问的文件共享。 2、 计算机开启设置屏幕保护程序，设置时间小于10分钟，恢复时使用输入密码。 3、 计算机上禁止运行任何未经安全分析、来历不明的软件。 4、 计算机必须妥善保管，并在丢失的情况下，立即上报以</description>
+    </item>
+    
+  </channel>
+</rss>

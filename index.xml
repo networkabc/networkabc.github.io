@@ -6,7 +6,16 @@
     <description>Recent content on NetworkABC Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 17 Aug 2022 01:45:00 +0800</lastBuildDate><atom:link href="https://networkabc.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 17 Aug 2022 19:55:00 +0800</lastBuildDate><atom:link href="https://networkabc.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MacOS安装Docker</title>
+      <link>https://networkabc.github.io/post/macosdocker/</link>
+      <pubDate>Wed, 17 Aug 2022 19:55:00 +0800</pubDate>
+      
+      <guid>https://networkabc.github.io/post/macosdocker/</guid>
+      <description>1. 开始安装： 1.1 终端输入： 1 brew install --cask --appdir=/Applications docker 1.2 出现：docker was successfully installed! 安装成功。 1.3 第一次使用，是需要本机密码确认的(进去mac的启动台，找到docker图标，打开应用)。 1.4 打开docker应用后，点击OK确认 1.5 输入密码后，弹出以下界面。 1.6 安装结束后，可在终端检查docker版本，显示版本</description>
+    </item>
+    
     <item>
       <title>Golang 交叉编译方法</title>
       <link>https://networkabc.github.io/other/gobuild/</link>

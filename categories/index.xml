@@ -6,7 +6,25 @@
     <description>Recent content in Categories on NetworkABC Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 17 Aug 2022 01:45:00 +0800</lastBuildDate><atom:link href="https://networkabc.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 17 Aug 2022 19:55:00 +0800</lastBuildDate><atom:link href="https://networkabc.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docker</title>
+      <link>https://networkabc.github.io/categories/Docker/</link>
+      <pubDate>Wed, 17 Aug 2022 19:55:00 +0800</pubDate>
+      
+      <guid>https://networkabc.github.io/categories/Docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MacOS</title>
+      <link>https://networkabc.github.io/categories/MacOS/</link>
+      <pubDate>Wed, 17 Aug 2022 19:55:00 +0800</pubDate>
+      
+      <guid>https://networkabc.github.io/categories/MacOS/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Golang</title>
       <link>https://networkabc.github.io/categories/Golang/</link>

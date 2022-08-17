@@ -144,7 +144,10 @@
   <ul>
     <li><a href="#描述">描述</a>
       <ul>
-        <li></li>
+        <li><a href="#1-实现方法">1. 实现方法</a></li>
+        <li><a href="#2-将普通用户test添加到docker用户组安装docker会有个docker">2. 将普通⽤用户test添加到docker⽤用户组（安装docker会有个docker）</a></li>
+        <li><a href="#3-授权普通用户可以使用kubectl命令">3. 授权普通⽤用户可以使⽤用kubectl命令</a></li>
+        <li><a href="#4验证test用户测试是否可">4.验证test用户测试是否可⽤</a></li>
       </ul>
     </li>
   </ul>
@@ -195,7 +198,7 @@
             
             <span class="meta-category"><a href='/categories/Centos7'>Centos7</a></span>
             
-            <span class="meta-category"><a href='/categories/service'>service</a></span>
+            <span class="meta-category"><a href='/categories/systemd'>systemd</a></span>
             
         </div>
         
@@ -221,7 +224,7 @@
 <li>用户名：test</li>
 <li>允许test执行sudo的服务：docker、kubectl</li>
 </ul>
-<h4 id="1-实现方法">1. 实现方法</h4>
+<h3 id="1-实现方法">1. 实现方法</h3>
 <div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
 <table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
 <pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
@@ -248,7 +251,7 @@
 </span></span><span style="display:flex;"><span><span style="color:#0086b3">test</span> <span style="color:#008080">ALL</span><span style="color:#000;font-weight:bold">=</span>NOPASSWD:/usr/bin/systemctl start kubelet
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h4 id="2-将普通用户test添加到docker用户组安装docker会有个docker">2. 将普通⽤用户test添加到docker⽤用户组（安装docker会有个docker）</h4>
+</div><h3 id="2-将普通用户test添加到docker用户组安装docker会有个docker">2. 将普通⽤用户test添加到docker⽤用户组（安装docker会有个docker）</h3>
 <div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
 <table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
 <pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
@@ -257,7 +260,7 @@
 <pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>gpasswd -a <span style="color:#0086b3">test</span> docker
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h4 id="3-授权普通用户可以使用kubectl命令">3. 授权普通⽤用户可以使⽤用kubectl命令</h4>
+</div><h3 id="3-授权普通用户可以使用kubectl命令">3. 授权普通⽤用户可以使⽤用kubectl命令</h3>
 <div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
 <table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
 <pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
@@ -270,7 +273,7 @@
 </span></span><span style="display:flex;"><span>chmod -R <span style="color:#099">644</span> /etc/kubernetes/admin.conf
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h4 id="4验证test用户测试是否可">4.验证test用户测试是否可⽤</h4>
+</div><h3 id="4验证test用户测试是否可">4.验证test用户测试是否可⽤</h3>
 <div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
 <table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
 <pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
@@ -329,8 +332,6 @@
             <ul class="clearfix">
                 
                 <li><a href='/tags/Centos7'>Centos7</a></li>
-                
-                <li><a href='/tags/service'>service</a></li>
                 
             </ul>
             
@@ -441,7 +442,7 @@
     
     <li><a href="https://networkabc.github.io/categories/MacOS/">MacOS (1)</a></li>
     
-    <li><a href="https://networkabc.github.io/categories/service/">service (1)</a></li>
+    <li><a href="https://networkabc.github.io/categories/systemd/">systemd (1)</a></li>
     
 </ul>
     </section>
@@ -459,8 +460,6 @@
     <a href="https://networkabc.github.io/tags/MacOS/">MacOS</a>
     
     <a href="https://networkabc.github.io/tags/golang/">golang</a>
-    
-    <a href="https://networkabc.github.io/tags/service/">service</a>
     
 </div>
     </section>

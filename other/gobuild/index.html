@@ -140,7 +140,19 @@
 <div class="post-toc" style="position: absolute; top: 188px;">
     <h2 class="post-toc-title">文章目录</h2>
     <div class="post-toc-content">
-        <nav id="TableOfContents"></nav>
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#只需要指定目标操作系统的平台和处理器架构即可"><strong>只需要指定目标操作系统的平台和处理器架构即可：</strong></a>
+      <ul>
+        <li><a href="#命令行方式因为不支持cgo所以要禁用cgo">**命令行方式，**<strong>因为不支持CGO，所以要禁用CGO</strong></a></li>
+        <li><a href="#mac-下编译-linux-和-windows-平台-64位-可执行程序"><strong>Mac 下编译 Linux 和 Windows 平台 64位 可执行程序</strong></a></li>
+        <li><a href="#linux下编译-mac-和-windows-平台64位可执行程序"><strong>Linux下编译 Mac 和 Windows 平台64位可执行程序</strong></a></li>
+        <li><a href="#windows下编译mac平台64位可执行程序"><strong>Windows下编译Mac平台64位可执行程序</strong></a></li>
+        <li><a href="#make-file-方式"><strong>make file 方式</strong></a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
     </div>
 </div>
 <script type="text/javascript">
@@ -203,29 +215,31 @@
         </div>
         
         <div class="post-content">
-            <p><strong>只需要指定目标操作系统的平台和处理器架构即可：</strong></p>
-<p>**命令行方式，**<strong>因为不支持CGO，所以要禁用CGO</strong></p>
+            <h2 id="只需要指定目标操作系统的平台和处理器架构即可"><strong>只需要指定目标操作系统的平台和处理器架构即可：</strong></h2>
+<h3 id="命令行方式因为不支持cgo所以要禁用cgo">**命令行方式，**<strong>因为不支持CGO，所以要禁用CGO</strong></h3>
 <ul>
 <li>SET CGO_ENABLED=0 // 禁用CGO</li>
 <li>SET GOOS=linux // 目标平台是linux</li>
 <li>SET GOARCH=amd64 // 目标处理器架构是amd64</li>
 </ul>
-<p><strong>Mac 下编译 Linux 和 Windows 平台 64位 可执行程序：</strong></p>
+<h3 id="mac-下编译-linux-和-windows-平台-64位-可执行程序"><strong>Mac 下编译 Linux 和 Windows 平台 64位 可执行程序</strong></h3>
 <ul>
 <li>CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build</li>
 <li>CGO_ENABLED=0 GOOS=windows GOARCH=amd64 go build</li>
 </ul>
-<p><strong>Linux下编译 Mac 和 Windows 平台64位可执行程序：</strong></p>
+<h3 id="linux下编译-mac-和-windows-平台64位可执行程序"><strong>Linux下编译 Mac 和 Windows 平台64位可执行程序</strong></h3>
 <ul>
 <li>CGO_ENABLED=0 GOOS=darwin GOARCH=amd64 go build</li>
 <li>CGO_ENABLED=0 GOOS=windows GOARCH=amd64 go build</li>
-<li><strong>Windows下编译Mac平台64位可执行程序：</strong></li>
+</ul>
+<h3 id="windows下编译mac平台64位可执行程序"><strong>Windows下编译Mac平台64位可执行程序</strong></h3>
+<ul>
 <li>SET CGO_ENABLED=0</li>
 <li>SET GOOS=darwin</li>
 <li>SET GOARCH=amd64</li>
 <li>go build</li>
 </ul>
-<p><strong>make file 方式</strong></p>
+<h3 id="make-file-方式"><strong>make file 方式</strong></h3>
 <div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
 <table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
 <pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
@@ -523,6 +537,10 @@ make release VERSION=0.9</p>
 <ul class="widget-list">
     
     <li>
+        <a href="https://networkabc.github.io/post/CentOS7%E4%B8%8B%E6%99%AE%E9%80%9A%E8%B4%A6%E5%8F%B7%E9%80%9A%E8%BF%87systemctl%E7%AE%A1%E7%90%86%E7%90%86%E6%9C%8D%E5%8A%A1/" title="CentOS7下普通账号通过systemctl管理理服务">CentOS7下普通账号通过systemctl管理理服务</a>
+    </li>
+    
+    <li>
         <a href="https://networkabc.github.io/post/macosdocker/" title="MacOS安装Docker">MacOS安装Docker</a>
     </li>
     
@@ -541,6 +559,8 @@ make release VERSION=0.9</p>
         <h3 class="widget-title"><a href='/categories/'>分类</a></h3>
 <ul class="widget-list">
     
+    <li><a href="https://networkabc.github.io/categories/Centos7/">Centos7 (1)</a></li>
+    
     <li><a href="https://networkabc.github.io/categories/Docker/">Docker (1)</a></li>
     
     <li><a href="https://networkabc.github.io/categories/Golang/">Golang (1)</a></li>
@@ -549,12 +569,16 @@ make release VERSION=0.9</p>
     
     <li><a href="https://networkabc.github.io/categories/MacOS/">MacOS (1)</a></li>
     
+    <li><a href="https://networkabc.github.io/categories/service/">service (1)</a></li>
+    
 </ul>
     </section>
 
     <section class="widget">
         <h3 class="widget-title"><a href='/tags/'>标签</a></h3>
 <div class="tagcloud">
+    
+    <a href="https://networkabc.github.io/tags/Centos7/">Centos7</a>
     
     <a href="https://networkabc.github.io/tags/Docker/">Docker</a>
     
@@ -563,6 +587,8 @@ make release VERSION=0.9</p>
     <a href="https://networkabc.github.io/tags/MacOS/">MacOS</a>
     
     <a href="https://networkabc.github.io/tags/golang/">golang</a>
+    
+    <a href="https://networkabc.github.io/tags/service/">service</a>
     
 </div>
     </section>

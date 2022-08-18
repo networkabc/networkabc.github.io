@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ssh on NetworkABC Blog</title>
+    <link>https://networkabc.github.io/tags/ssh/</link>
+    <description>Recent content in ssh on NetworkABC Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Thu, 18 Aug 2022 23:21:00 +0800</lastBuildDate><atom:link href="https://networkabc.github.io/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>非交互的ssh密码验证工具—sshpass</title>
+      <link>https://networkabc.github.io/post/%E9%9D%9E%E4%BA%A4%E4%BA%92%E7%9A%84ssh%E5%AF%86%E7%A0%81%E9%AA%8C%E8%AF%81%E5%B7%A5%E5%85%B7sshpass/</link>
+      <pubDate>Thu, 18 Aug 2022 23:21:00 +0800</pubDate>
+      
+      <guid>https://networkabc.github.io/post/%E9%9D%9E%E4%BA%A4%E4%BA%92%E7%9A%84ssh%E5%AF%86%E7%A0%81%E9%AA%8C%E8%AF%81%E5%B7%A5%E5%85%B7sshpass/</guid>
+      <description>sshpass命令用于非交互的 ssh 密码验证。可以在命令行直接使用密码来进行远程连接和远程拉取文件。 使用前提 不支持对于未连接过的主机 (主要问题在于&amp;quot;输入yes进行确认&amp;quot;)。 语法格式 1 sshpass [参数] 常用参数 参数 说明 -p 指定密码 -f 指定文件 安装sshpass 1 2 3 [root@tools ~]# yum install -y epel-release</description>
+    </item>
+    
+  </channel>
+</rss>

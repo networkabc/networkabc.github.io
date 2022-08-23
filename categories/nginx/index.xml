@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>nginx on NetworkABC Blog</title>
-    <link>https://networkabc.github.io/categories/nginx/</link>
-    <description>Recent content in nginx on NetworkABC Blog</description>
+    <title>Nginx on NetworkABC Blog</title>
+    <link>https://networkabc.github.io/categories/Nginx/</link>
+    <description>Recent content in Nginx on NetworkABC Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 23 Aug 2022 23:41:00 +0800</lastBuildDate><atom:link href="https://networkabc.github.io/categories/nginx/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Aug 2022 23:41:00 +0800</lastBuildDate><atom:link href="https://networkabc.github.io/categories/Nginx/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>nginx浏览目录配置</title>
       <link>https://networkabc.github.io/post/nginx/nginx%E6%B5%8F%E8%A7%88%E7%9B%AE%E5%BD%95%E9%85%8D%E7%BD%AE/</link>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>虚拟硬盘 on NetworkABC Blog</title>
+    <link>https://networkabc.github.io/tags/%E8%99%9A%E6%8B%9F%E7%A1%AC%E7%9B%98/</link>
+    <description>Recent content in 虚拟硬盘 on NetworkABC Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Tue, 23 Aug 2022 23:43:00 +0800</lastBuildDate><atom:link href="https://networkabc.github.io/tags/%E8%99%9A%E6%8B%9F%E7%A1%AC%E7%9B%98/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux用内存虚拟硬盘</title>
+      <link>https://networkabc.github.io/post/linux/Linux%E7%94%A8%E5%86%85%E5%AD%98%E8%99%9A%E6%8B%9F%E7%A1%AC%E7%9B%98/</link>
+      <pubDate>Tue, 23 Aug 2022 23:43:00 +0800</pubDate>
+      
+      <guid>https://networkabc.github.io/post/linux/Linux%E7%94%A8%E5%86%85%E5%AD%98%E8%99%9A%E6%8B%9F%E7%A1%AC%E7%9B%98/</guid>
+      <description>挂载 1 mount -t tmpfs -o size=1024m tmpfs /mnt/memdrive 开机自动挂载 1 echo &amp;#34;tmpfs /mnt/memdrive tmpfs size=1024m 0 0&amp;#34; &amp;gt;&amp;gt;/etc/fstab</description>
+    </item>
+    
+  </channel>
+</rss>

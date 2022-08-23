@@ -3,21 +3,48 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://networkabc.github.io/categories/</loc>
-    <lastmod>2022-08-18T23:21:00+08:00</lastmod>
+    <lastmod>2022-08-23T23:43:00+08:00</lastmod>
+  </url><url>
+    <loc>https://networkabc.github.io/tags/Linux/</loc>
+    <lastmod>2022-08-23T23:43:00+08:00</lastmod>
+  </url><url>
+    <loc>https://networkabc.github.io/categories/Linux/</loc>
+    <lastmod>2022-08-23T23:43:00+08:00</lastmod>
+  </url><url>
+    <loc>https://networkabc.github.io/post/linux/Linux%E7%94%A8%E5%86%85%E5%AD%98%E8%99%9A%E6%8B%9F%E7%A1%AC%E7%9B%98/</loc>
+    <lastmod>2022-08-23T23:43:00+08:00</lastmod>
   </url><url>
     <loc>https://networkabc.github.io/</loc>
-    <lastmod>2022-08-18T23:21:00+08:00</lastmod>
+    <lastmod>2022-08-23T23:43:00+08:00</lastmod>
   </url><url>
     <loc>https://networkabc.github.io/post/</loc>
-    <lastmod>2022-08-18T23:21:00+08:00</lastmod>
+    <lastmod>2022-08-23T23:43:00+08:00</lastmod>
+  </url><url>
+    <loc>https://networkabc.github.io/tags/</loc>
+    <lastmod>2022-08-23T23:43:00+08:00</lastmod>
+  </url><url>
+    <loc>https://networkabc.github.io/tags/%E5%86%85%E5%AD%98/</loc>
+    <lastmod>2022-08-23T23:43:00+08:00</lastmod>
+  </url><url>
+    <loc>https://networkabc.github.io/tags/%E8%99%9A%E6%8B%9F%E7%A1%AC%E7%9B%98/</loc>
+    <lastmod>2022-08-23T23:43:00+08:00</lastmod>
+  </url><url>
+    <loc>https://networkabc.github.io/tags/nginx/</loc>
+    <lastmod>2022-08-23T23:41:00+08:00</lastmod>
+  </url><url>
+    <loc>https://networkabc.github.io/categories/nginx/</loc>
+    <lastmod>2022-08-23T23:41:00+08:00</lastmod>
+  </url><url>
+    <loc>https://networkabc.github.io/post/nginx/nginx%E6%B5%8F%E8%A7%88%E7%9B%AE%E5%BD%95%E9%85%8D%E7%BD%AE/</loc>
+    <lastmod>2022-08-23T23:41:00+08:00</lastmod>
+  </url><url>
+    <loc>https://networkabc.github.io/post/nginx/nginx%E5%85%81%E8%AE%B8%E6%88%96%E6%8B%92%E7%BB%9Dget_post_put_delete%E8%AF%B7%E6%B1%82/</loc>
+    <lastmod>2022-08-23T23:29:00+08:00</lastmod>
   </url><url>
     <loc>https://networkabc.github.io/tags/ssh/</loc>
     <lastmod>2022-08-18T23:21:00+08:00</lastmod>
   </url><url>
     <loc>https://networkabc.github.io/categories/ssh/</loc>
-    <lastmod>2022-08-18T23:21:00+08:00</lastmod>
-  </url><url>
-    <loc>https://networkabc.github.io/tags/</loc>
     <lastmod>2022-08-18T23:21:00+08:00</lastmod>
   </url><url>
     <loc>https://networkabc.github.io/post/%E9%9D%9E%E4%BA%A4%E4%BA%92%E7%9A%84ssh%E5%AF%86%E7%A0%81%E9%AA%8C%E8%AF%81%E5%B7%A5%E5%85%B7sshpass/</loc>
@@ -56,10 +83,7 @@
     <loc>https://networkabc.github.io/categories/Golang/</loc>
     <lastmod>2022-08-17T01:45:00+08:00</lastmod>
   </url><url>
-    <loc>https://networkabc.github.io/other/Golang-%E4%BA%A4%E5%8F%89%E7%BC%96%E8%AF%91%E6%96%B9%E6%B3%95/</loc>
-    <lastmod>2022-08-17T01:45:00+08:00</lastmod>
-  </url><url>
-    <loc>https://networkabc.github.io/other/</loc>
+    <loc>https://networkabc.github.io/post/go/Golang-%E4%BA%A4%E5%8F%89%E7%BC%96%E8%AF%91%E6%96%B9%E6%B3%95/</loc>
     <lastmod>2022-08-17T01:45:00+08:00</lastmod>
   </url><url>
     <loc>https://networkabc.github.io/tags/IP/</loc>

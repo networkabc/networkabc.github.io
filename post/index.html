@@ -78,6 +78,81 @@
     <article class="post">
         <header>
             <h1 class="post-title">
+                <a href="https://networkabc.github.io/post/linux/Linux%E7%94%A8%E5%86%85%E5%AD%98%E8%99%9A%E6%8B%9F%E7%A1%AC%E7%9B%98/" title="Linux用内存虚拟硬盘">Linux用内存虚拟硬盘</a>
+            </h1>
+        </header>
+        <date class="post-meta meta-date">
+            2022年8月23日
+        </date>
+        
+        <div class="post-meta">
+            <span>|</span>
+            
+            <span class="meta-category"><a href='/categories/Linux'>Linux</a></span>
+            
+        </div>
+        
+        <div class="post-content">
+            挂载 1 mount -t tmpfs -o size=1024m tmpfs /mnt/memdrive 开机自动挂载 1 echo &#34;tmpfs /mnt/memdrive tmpfs size=1024m 0 0&#34; &gt;&gt;/etc/fstab……
+        </div>
+        <p class="readmore"><a href="https://networkabc.github.io/post/linux/Linux%E7%94%A8%E5%86%85%E5%AD%98%E8%99%9A%E6%8B%9F%E7%A1%AC%E7%9B%98/">阅读全文</a></p>
+    </article>
+    
+    
+    
+    <article class="post">
+        <header>
+            <h1 class="post-title">
+                <a href="https://networkabc.github.io/post/nginx/nginx%E6%B5%8F%E8%A7%88%E7%9B%AE%E5%BD%95%E9%85%8D%E7%BD%AE/" title="nginx浏览目录配置">nginx浏览目录配置</a>
+            </h1>
+        </header>
+        <date class="post-meta meta-date">
+            2022年8月23日
+        </date>
+        
+        <div class="post-meta">
+            <span>|</span>
+            
+            <span class="meta-category"><a href='/categories/nginx'>nginx</a></span>
+            
+        </div>
+        
+        <div class="post-content">
+            在项目中有一个功能需要在浏览器页面中浏览服务器的目录。服务器使用Nginx，而Nginx提供了相应的ngx_http_autoindex_module 模块，该模块提供了我们想要的功能。 Nginx ngx_http_autoindex_module 模块 该模块有以下几个命令： 命令 默认值 值域 作用域 EG autoindex off on：开启目录浏览； off：关闭目录浏览……
+        </div>
+        <p class="readmore"><a href="https://networkabc.github.io/post/nginx/nginx%E6%B5%8F%E8%A7%88%E7%9B%AE%E5%BD%95%E9%85%8D%E7%BD%AE/">阅读全文</a></p>
+    </article>
+    
+    
+    
+    <article class="post">
+        <header>
+            <h1 class="post-title">
+                <a href="https://networkabc.github.io/post/nginx/nginx%E5%85%81%E8%AE%B8%E6%88%96%E6%8B%92%E7%BB%9Dget_post_put_delete%E8%AF%B7%E6%B1%82/" title="nginx允许或拒绝get/post/put/delete请求">nginx允许或拒绝get/post/put/delete请求</a>
+            </h1>
+        </header>
+        <date class="post-meta meta-date">
+            2022年8月23日
+        </date>
+        
+        <div class="post-meta">
+            <span>|</span>
+            
+            <span class="meta-category"><a href='/categories/nginx'>nginx</a></span>
+            
+        </div>
+        
+        <div class="post-content">
+            只允许get/post请求 1 2 3 4 5 6 7 8 9 if ($request_method !~* GET|POST) { return 403; } #或者 if ($request_method !~ ^(GET|POST)$) { return 403; } 拒绝PUT、DELETE、POST请求 1 2 3 4 5 6 7 8 9 if ($request_method = PUT){ return 403; } if ($request_method = DELETE){ return 403; } if ($request_method = POST){ return 403; } 注意：if和(之间要有一个空格，否则会报错。要放在server层里面。 1 2 3 server{ #放这里 }……
+        </div>
+        <p class="readmore"><a href="https://networkabc.github.io/post/nginx/nginx%E5%85%81%E8%AE%B8%E6%88%96%E6%8B%92%E7%BB%9Dget_post_put_delete%E8%AF%B7%E6%B1%82/">阅读全文</a></p>
+    </article>
+    
+    
+    
+    <article class="post">
+        <header>
+            <h1 class="post-title">
                 <a href="https://networkabc.github.io/post/%E9%9D%9E%E4%BA%A4%E4%BA%92%E7%9A%84ssh%E5%AF%86%E7%A0%81%E9%AA%8C%E8%AF%81%E5%B7%A5%E5%85%B7sshpass/" title="提供非交互式密码验证的轻量级命令行工具sshpass">提供非交互式密码验证的轻量级命令行工具sshpass</a>
             </h1>
         </header>
@@ -157,6 +232,31 @@
     <article class="post">
         <header>
             <h1 class="post-title">
+                <a href="https://networkabc.github.io/post/go/Golang-%E4%BA%A4%E5%8F%89%E7%BC%96%E8%AF%91%E6%96%B9%E6%B3%95/" title="Golang 交叉编译方法">Golang 交叉编译方法</a>
+            </h1>
+        </header>
+        <date class="post-meta meta-date">
+            2022年8月17日
+        </date>
+        
+        <div class="post-meta">
+            <span>|</span>
+            
+            <span class="meta-category"><a href='/categories/Golang'>Golang</a></span>
+            
+        </div>
+        
+        <div class="post-content">
+            只需要指定目标操作系统的平台和处理器架构即可： **命令行方式，**因为不支持CGO，所以要禁用CGO SET CGO_ENABLED=0 // 禁用CGO SET GOOS=linux // 目标平台是linux SET GOARCH=amd64 // 目标处理器架构是amd64 Mac 下编译 Linux 和 Windows 平台 64位 可执行程序 CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build CGO_ENABLED=0 GOOS=windows GOARCH=amd64 go build Linux下编译 Mac 和 Windows 平台64位可执行程序 CGO_ENABLED=0 GOOS=darwin GOARCH=amd64 go build……
+        </div>
+        <p class="readmore"><a href="https://networkabc.github.io/post/go/Golang-%E4%BA%A4%E5%8F%89%E7%BC%96%E8%AF%91%E6%96%B9%E6%B3%95/">阅读全文</a></p>
+    </article>
+    
+    
+    
+    <article class="post">
+        <header>
+            <h1 class="post-title">
                 <a href="https://networkabc.github.io/post/nipap/" title="构建 IP 地址管理系统nipap">构建 IP 地址管理系统nipap</a>
             </h1>
         </header>
@@ -228,6 +328,18 @@
 <ul class="widget-list">
     
     <li>
+        <a href="https://networkabc.github.io/post/linux/Linux%E7%94%A8%E5%86%85%E5%AD%98%E8%99%9A%E6%8B%9F%E7%A1%AC%E7%9B%98/" title="Linux用内存虚拟硬盘">Linux用内存虚拟硬盘</a>
+    </li>
+    
+    <li>
+        <a href="https://networkabc.github.io/post/nginx/nginx%E6%B5%8F%E8%A7%88%E7%9B%AE%E5%BD%95%E9%85%8D%E7%BD%AE/" title="nginx浏览目录配置">nginx浏览目录配置</a>
+    </li>
+    
+    <li>
+        <a href="https://networkabc.github.io/post/nginx/nginx%E5%85%81%E8%AE%B8%E6%88%96%E6%8B%92%E7%BB%9Dget_post_put_delete%E8%AF%B7%E6%B1%82/" title="nginx允许或拒绝get/post/put/delete请求">nginx允许或拒绝get/post/put/delete请求</a>
+    </li>
+    
+    <li>
         <a href="https://networkabc.github.io/post/%E9%9D%9E%E4%BA%A4%E4%BA%92%E7%9A%84ssh%E5%AF%86%E7%A0%81%E9%AA%8C%E8%AF%81%E5%B7%A5%E5%85%B7sshpass/" title="提供非交互式密码验证的轻量级命令行工具sshpass">提供非交互式密码验证的轻量级命令行工具sshpass</a>
     </li>
     
@@ -237,6 +349,10 @@
     
     <li>
         <a href="https://networkabc.github.io/post/MacOS%E5%AE%89%E8%A3%85Docker/" title="MacOS安装Docker">MacOS安装Docker</a>
+    </li>
+    
+    <li>
+        <a href="https://networkabc.github.io/post/go/Golang-%E4%BA%A4%E5%8F%89%E7%BC%96%E8%AF%91%E6%96%B9%E6%B3%95/" title="Golang 交叉编译方法">Golang 交叉编译方法</a>
     </li>
     
     <li>
@@ -262,7 +378,11 @@
     
     <li><a href="https://networkabc.github.io/categories/IP%E5%9C%B0%E5%9D%80%E7%AE%A1%E7%90%86/">IP地址管理 (1)</a></li>
     
+    <li><a href="https://networkabc.github.io/categories/Linux/">Linux (1)</a></li>
+    
     <li><a href="https://networkabc.github.io/categories/MacOS/">MacOS (1)</a></li>
+    
+    <li><a href="https://networkabc.github.io/categories/nginx/">nginx (2)</a></li>
     
     <li><a href="https://networkabc.github.io/categories/ssh/">ssh (1)</a></li>
     
@@ -281,11 +401,19 @@
     
     <a href="https://networkabc.github.io/tags/IP/">IP</a>
     
+    <a href="https://networkabc.github.io/tags/Linux/">Linux</a>
+    
     <a href="https://networkabc.github.io/tags/MacOS/">MacOS</a>
     
     <a href="https://networkabc.github.io/tags/golang/">golang</a>
     
+    <a href="https://networkabc.github.io/tags/nginx/">nginx</a>
+    
     <a href="https://networkabc.github.io/tags/ssh/">ssh</a>
+    
+    <a href="https://networkabc.github.io/tags/%E5%86%85%E5%AD%98/">内存</a>
+    
+    <a href="https://networkabc.github.io/tags/%E8%99%9A%E6%8B%9F%E7%A1%AC%E7%9B%98/">虚拟硬盘</a>
     
 </div>
     </section>
